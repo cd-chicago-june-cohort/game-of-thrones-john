@@ -1,0 +1,18 @@
+#container {
+    width: 970px;
+    border: 1px solid black;
+}
+
+img {
+    display: inline-block;
+    height: 200px;
+    width: 210px;
+    margin: 10px;
+}
+
+fieldset {
+    width: 60%;
+    margin: 20px;
+    margin-left: 150px;
+    
+}
