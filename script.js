@@ -10,8 +10,6 @@ $(document).ready(function() {
 
         var proxy = 'https://cors-anywhere.herokuapp.com/';
 
-        //var familyName, words, titles;
-
         $.get(proxy + url, function(info) {
 
             var familyName = info.name;
@@ -26,7 +24,6 @@ $(document).ready(function() {
 
             str += familyTitles[familyTitles.length - 1] + ".";
 
-
             str += "</p>";
 
             $("fieldset").html(str);
@@ -34,17 +31,5 @@ $(document).ready(function() {
         }, "json");
 
     });
-
-
-
-
-
-
-
-
-
-
-
-
 
 });
